@@ -19,9 +19,9 @@
     </ProjectConfiguration>
   </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectGuid>{D5210E1E-953F-4448-A5A7-7E79F72D6B7F}</ProjectGuid>
+    <ProjectGuid>{FE945558-9C6B-41F5-A67C-D79180C30BF6}</ProjectGuid>
     <Keyword>Win32Proj</Keyword>
-    <RootNamespace>Numberof1Bits</RootNamespace>
+    <RootNamespace>StringtoInteger</RootNamespace>
     <WindowsTargetPlatformVersion>8.1</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
@@ -142,11 +142,11 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="main.cpp" />
-    <ClCompile Include="Solution.cpp" />
+    <ClInclude Include="Solution.h" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="Solution.h" />
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="Solution.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
